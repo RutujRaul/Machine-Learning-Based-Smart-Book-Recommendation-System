@@ -1,0 +1,63 @@
+/* Container styling for the login page */
+.login-container {
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f7f9fc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added box shadow for better visual effect */
+}
+
+h2 {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.error {
+  color: #e74c3c;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Form styling */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+
+input {
+  padding: 12px;
+  font-size: 1rem;
+  width: 100%;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #2980b9;
+}
+
+button {
+  padding: 10px 20px;  /* Reduced padding for a more compact button */
+  font-size: 1rem;
+  width: auto; /* Button width adjusted to match input fields */
+  max-width: 200px;  /* Optional: Limit the max-width for the button */
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  align-self: center;  /* Center the button horizontally */
+}
+
+button:hover {
+  background-color: #3498db;
+}
